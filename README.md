@@ -16,8 +16,8 @@ simple drawing view has the same size as the image-map. please also make the sim
 the image map just right.
 
 use yourself wall color to instead of the demo wall color
-
-self.pathFinder=[[TXPathFinder alloc] initWithMap:self.imgMap.image wallColor:[UIColor redColor]];
+  
+    self.pathFinder=[[TXPathFinder alloc] initWithMap:self.imgMap.image wallColor:[UIColor redColor]];
 
 
 
